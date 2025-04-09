@@ -40,3 +40,85 @@
 .read-the-docs {
   color: #888;
 } */
+
+.movie-details-container {
+  background-color: #f8f9fa5f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-img-top {
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.movie-detail-card {
+  background-color: #343a40; 
+  color: white; 
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.movie-detail-card h5 {
+  font-size: 1.2rem;
+}
+
+.movie-detail-card p {
+  font-size: 1rem;
+}
+
+
+.comment-card {
+  background-color: #343a40; 
+  color: white; 
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.comment-card p {
+  font-size: 1rem;
+}
+
+.comment-card p strong {
+  color: #6e0808; /* Colore blu per il nome dell'autore */
+}
+
+/* Commenti lista non ordinata */
+.list-unstyled li {
+  background-color: #343a40; /* Colore scuro per i commenti */
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.list-unstyled li p {
+  margin: 0;
+  color: #e0e0e0; 
+}
+
+.list-unstyled li p strong {
+  color: #6e0808; /* Colore blu per l'autore */
+}
+
+/* Pulsante per tornare indietro */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #6e0808;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #430101;
+  transition: background-color 0.3s;
+}
