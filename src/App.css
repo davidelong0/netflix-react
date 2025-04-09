@@ -87,12 +87,12 @@
 }
 
 .comment-card p strong {
-  color: #6e0808; /* Colore blu per il nome dell'autore */
+  color: #6e0808!important; 
 }
 
-/* Commenti lista non ordinata */
+
 .list-unstyled li {
-  background-color: #343a40; /* Colore scuro per i commenti */
+  background-color: #343a40; 
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   padding: 15px;
@@ -104,21 +104,21 @@
 }
 
 .list-unstyled li p strong {
-  color: #6e0808; /* Colore blu per l'autore */
+  color: #6e0808!important; 
 }
 
-/* Pulsante per tornare indietro */
+
 button {
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 8px;
-  background-color: #6e0808;
+  background-color: #6e0808!important;
   border: none;
   color: white;
   font-weight: bold;
 }
 
 button:hover {
-  background-color: #430101;
+  background-color: #430101!important;
   transition: background-color 0.3s;
 }

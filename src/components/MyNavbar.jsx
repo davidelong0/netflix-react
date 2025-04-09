@@ -6,7 +6,7 @@ const MyNavbar = () => {
     <Navbar variant="dark" expand="lg" style={{ backgroundColor: '#221f1f' }}>
       <Navbar.Brand as={Link} to="/">
         <img
-          src="assets/logo.png"
+          src="src/assets/logo.png"
           alt="logo"
           style={{ width: '100px', height: '55px' }}
         />

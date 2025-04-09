@@ -101,7 +101,7 @@ const MovieDetails = () => {
           )}
         </Col>
       </Row>
-      <Button variant="primary" onClick={() => window.history.back()} className="mt-4">Back to Movies</Button>
+      <Button onClick={() => window.history.back()} className="mt-4">Back to Movies</Button>
     </Container>
   );
 };
